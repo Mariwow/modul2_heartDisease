@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 import os
 
-model = 'GBT_heartDisease_model.pkl'
+model = 'SVM_heartDisease_model.pkl'
 
 with open(model,'rb') as f:
     loaded_model = pickle.load(f)
