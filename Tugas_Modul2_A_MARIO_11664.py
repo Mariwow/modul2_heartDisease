@@ -3,9 +3,7 @@ import streamlit as st
 import pickle
 import os
 
-#Load model yang sudah dibuat dari Jupyter Notebook
-model_path = r'D:\ATMA\sem 5\Mesin\Tugas_Modul 2_A_MARIO_11664'
-model=os.path. join(model_path, r'RF_heartDisease_model.pkl')
+model = 'RF_heartDisease_model.pkl'
 
 with open(model,'rb') as f:
     loaded_model = pickle.load(f)
